@@ -1,0 +1,13 @@
+---
+ - name: sravs
+   phno: 8179260965
+   course: cse
+   address: 
+    street: 1
+    pinno: 500067
+ - name: anjali
+   phno: 563643
+   course: devops
+   address:
+    street: 2
+    pinno: 500058
