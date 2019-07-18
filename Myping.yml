@@ -1,4 +1,10 @@
 ---
+<<<<<<< HEAD
   - hosts: all
     name: 
     ping:
+=======
+- hosts: all
+
+  ping:
+>>>>>>> 51205d3eaf9184a209ffef2a2df7d9cc99dd4f44
