@@ -1,4 +1,5 @@
 ---
 - hosts: all
-
-  ping:
+  tasks:
+  - name: DES IN AM PING TO NODES
+    ping:
