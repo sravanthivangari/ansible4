@@ -1,16 +1,5 @@
 ---
-<<<<<<< HEAD
-  - hosts: all
-    name: 
-    ping:
-=======
 - hosts: all
-<<<<<<< HEAD
   tasks:
   - name: DES IN AM PING TO NODES
     ping:
-=======
-
-  ping:
->>>>>>> 51205d3eaf9184a209ffef2a2df7d9cc99dd4f44
->>>>>>> 41ffa89f9f285178d64e3b140996a978bbe00bce
