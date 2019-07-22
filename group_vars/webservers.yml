@@ -1,0 +1,5 @@
+webserveronubuntu : apache2
+webserveronamazon : httpd
+
+myjavaonubuntu : openjdk-7-jre
+myjavaonamazon : java-1.7.0-openjdk
