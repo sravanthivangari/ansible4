@@ -1,6 +1,5 @@
 ---
-# tasks file for mytomrole---
-# tasks file for mytomrole
+# tasks file for mytominstall
 - name: install tomcat
   yum:
    name: tomcat
@@ -14,7 +13,7 @@
 
 - name:  Install Admin Packages
   yum:
-    name: "{{ item }}"
+    name: "{{item}}"
     state: present
   with_items:
     - tomcat-webapps
@@ -24,10 +23,10 @@
   template:
     src: templates/mytomuser.j2
     dest: /usr/share/tomcat/conf/tomcat-users.xml
-  notify: starttomcat
+  notify: restarttomcat
 
 - name: i want to deploy ravi java war file into webapps  
   get_url:
-    url:  http://54.169.137.98:8081/artifactory/myansiblekey/2/target/raviLogin-1.0.war
-    dest: /usr/share/tomcat/webapps/raviLogin-1.0.war
+    url: http://34.219.189.15:8081/artifactory/sravs1/2/target/nareshLogin-1.0.war
+    dest: /usr/share/tomcat/webapps/nareshLogin-1.0.war
     force_basic_auth: yes
